@@ -12,8 +12,7 @@ import (
 func MealsFB5Command(s *discordgo.Session, i *discordgo.InteractionCreate) {
 	// todays date in format "2023-01-23"
 	date := time.Now().Format("2006-01-02")
-	print(date)
-	meals := openmensa.GetMeals(98, "2023-01-23")
+	meals := openmensa.GetMeals(98, date)
 
 	embeds := []*discordgo.MessageEmbed{}
 

@@ -8,7 +8,6 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	command "github.com/th3ph4nt0m/mensa-aachen-discord/commands"
-	"github.com/th3ph4nt0m/mensa-aachen-discord/openmensa"
 )
 
 var (
@@ -55,9 +54,6 @@ func init() {
 }
 
 func main() {
-	meals := openmensa.GetMeals(98, "2023-01-23")
-	log.Println(meals)
-
 	s.AddHandler(func(s *discordgo.Session, r *discordgo.Ready) {
 		log.Printf("Logged in as %s#%s", r.User.Username, s.State.User.Discriminator)
 	})
