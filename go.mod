@@ -1,4 +1,4 @@
-module github.com/th3ph4nt0m/mensa-aachen-discord
+module gitlab.com/th3ph4nt0m/mensa-discord
 
 go 1.19
 

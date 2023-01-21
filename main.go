@@ -7,7 +7,7 @@ import (
 	"os/signal"
 
 	"github.com/bwmarrin/discordgo"
-	command "github.com/th3ph4nt0m/mensa-aachen-discord/commands"
+	command "gitlab.com/th3ph4nt0m/mensa-discord/commands"
 )
 
 var (

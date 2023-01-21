@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/th3ph4nt0m/mensa-aachen-discord/openmensa"
+	"gitlab.com/th3ph4nt0m/mensa-discord/openmensa"
 )
 
 func MealsFB5Command(s *discordgo.Session, i *discordgo.InteractionCreate) {
